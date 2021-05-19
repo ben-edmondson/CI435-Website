@@ -1,0 +1,258 @@
+<!doctype html>
+<!--HTML5 doctype declaration -->
+<html lang="en">
+   <!--default language of the document content -->
+   <head>
+      <meta charset="utf-8">
+      <!--character encoding for the document (Unicode) -->
+	   <!--web page title -->
+      <title>Learning Journal</title>
+     
+	   <!-- fonts -->
+	   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,700;1,900&display=swap" rel="stylesheet">
+	   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+	   <!-- important stuff -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="CSS/normalise.css" rel="stylesheet">
+      <link href="CSS/stylesheet.css" rel="stylesheet /">  
+   </head>
+   <body>
+	            <nav>
+            <!--The primary navigation for the page -->
+            <ul class="navbr">
+               <li class="navln">
+                  <a class="crnt" href="index.html"><strong>Learning Journal</strong></a>
+               </li>
+               <li class="navln">
+                  <a href="tutorial.html">Tutorial</a>
+               </li>
+               <li class="navln">
+                  <a href="contact.html">Contact me</a>
+               </li>
+            </ul>
+         </nav>
+	   <div class="sidenav">
+	<h2>Weeks</h2>
+  <a href="#Week1">Week 1</a>
+  <a href="#Week2">Week 2</a>
+  <a href="#Week3">Week 3</a>
+  <a href="#Week4">Week 4 </a>
+	<a href="#Week5">Week 5</a>
+	<a href="#Week6">Week 6</a>
+	<a href="#Week7">Week 7</a>
+	<a href="#Week8">Week 8</a>
+	<a href="#Week9">Week 9</a>
+	<a href="#Week10">Week 10</a>
+</div>
+   <!--Markup all web page content inside the 'body' tags -->
+      <div id="wrapper">
+		  
+         <!--The 'wrapper' contains all the page content-->
+         <a id="top"></a>
+         <header class ="banner">
+            <!--The main heading for the page -->
+            <h1>Learning Journal</h1>
+         </header>
+
+         <main>
+            <!--The main page content -->
+            <h2>Weekly Posts</h2>
+            <article>
+               <header class="post">
+                  <a id="Week1"></a>
+                  <h3>Week 1: 
+                     <time datetime= "2020-10-08"> October 8, 2020</time>
+                  </h3>
+               </header>
+               <p>In week one we were shown how to setup Brighton Domains so that we could begin learning HTML. This involved going to the Brighton domains dashboard, going to the File manager called "cPanel File Manager" and creating a folder for our work called CI435. We then created 3 HTML pages that we linked together using 
+                  <code>'href'</code>. We also learned basic tags such as 
+                  <code>'p'</code> which is used to create new paragraphs.  
+               </p>
+               <p></p>
+            </article>
+            <article>
+               <header class="post">
+                  <a id="Week2"></a>
+                  <h3>Week 2: 	
+                     <time datetime= "2020-10-15"> October 15, 2020</time>
+                  </h3>
+               </header>
+               <p>In week 2 we begun creating the learning journal you are currently looking through. This site should be seen as a regular blog with updates as to what I have learned so far week to week. We also learned how to add dates to our website using the 
+                  <code>'time'</code> tag as well as how to make something bold using the 
+                  <code>'strong'</code> tag. We also learned how to create basic lists. Below I will have an example list of tasks to complete. As demonstration of this. To open a list you use the 
+                  <code>'ol'</code> tag.
+               </p>
+               <h4>Basic To Do list</h4>
+               <ol>
+                  <li>Create this list</li>
+                  <li>Populate this list</li>
+               </ol>
+               <figure>
+                  <div class="flt">
+                     <img src="Images/HTMLogo.png" width="250" height="250" alt=" " />
+                     <br />
+                     <small>Logo &copy; W3.Org</small>
+                  </div>
+               </figure>
+               <p>As you can see this list is numbered and therefore considered ordered. If you would like a bullet pointed list instead that is considered unordered you would use the <code>'ul'</code> tag instead of the <code>'ol'</code> tag.
+               </p>
+               <p>As well as this we learned how to add pictures into our webpage. This was quite a useful thing to learn. Using the 
+                  <code>'img'</code> tag, you can add the location of the image you'd like to add. This will need to be saved locally to where the website is hosted. Before this however you should use the 
+                  <code>'figure'</code> tag to markup the image.
+               </p>
+               <p>Lastly this week we also learned how to create an email link, and how to use page anchors. Firstly an email lnik can be created the same way most links would be with a small difference. You still use the 
+                  <code>'href'</code> tag to create a link the then after you put 
+                  <code>="mailto:test@gmail.com"'</code> in order to make it an email link. And page anchors, the final thing we learned about are very handy. They can be used in order to quickly get to another part of the 
+                  <a href="#top">page</a>.
+               </p>
+            </article>
+            <article>
+               <header class="post">
+                  <a id="Week3"></a>
+                  <h3>Week 3: 
+                     <time datetime= "2020-10-22"> October 22, 2020</time>
+                  </h3>
+               </header>
+               <p>During this week we learned about other types of lists that can be used in HTML. The list below is an example of a descriptive listen given to us to try within a lab. This uses the <code>'dl'</code>, <code>'dt'</code>, and <code>'dl'</code> tags in order to be created. In the listed order. </p>
+               <dl>
+                  <dt><strong>HTML</strong></dt>
+                  <dd>Hyper-text markup language - markup language used to structure content</dd>
+                  <dt><strong>CSS</strong></dt>
+                  <dd>Cascading stylesheets - used to define presentation of HTML elements</dd>
+                  <dt><strong>JavaScript</strong></dt>
+                  <dd>Scripting language for adding interactive behaviour to web pages</dd>
+               </dl>
+               <p>We also learned how to create tables within a webpage. To do this you first use the <code>'table'</code> tag. All elements within the table are nested within here. To create a row, a heading, and data you would use <code>'tr'</code>, <code>'th'</code>, <code>'td'</code> respectively.</p>
+               <p>An example of how this should look is below</p>
+               <table class= "tbl">
+                  <tr>
+                     <th>Monday</th>
+                     <th>Tuesday</th>
+                     <th>Wednesday</th>
+                     <th>Thursday</th>
+                     <th>Friday</th>
+                  </tr>
+                  <tr>
+                     <td>Based</td>
+                     <td>Based</td>
+                     <td>Based</td>
+                     <td>Based</td>
+                     <td>Based</td>
+                  </tr>
+               </table>
+               <p>Finally we covered how to use the <code>'blockquote'</code> tag. This is used in order to quote text from a source. To do this you use these tags in this order </p>
+               <ul>
+                  <li><code>'Blockquote'</code></li>
+                  <li><code>'P'</code></li>
+                  <li><code>'Footer'</code></li>
+                  <li><code>'Cite'</code></li>
+               </ul>
+               <p>As always do not forget to close the blockquote, the footer, and the cite tags.</p>
+            </article>
+            <article>
+               <header class="post">
+                  <a id="Week4"></a>
+                  <h3>Week 4: 
+                     <time datetime= "2020-10-29"> October 29, 2020</time>
+                  </h3>
+               </header>
+               <p>This is the first week we begun to start learning the basics of CSS. We first learned how the <code>'normalize.css'</code> file is used to standardise webpages. Which is used by most professional developers. As such, in order to follow this standard, this was used on this and subsequent pages within this website.  </p>
+               <p> After this we also added <code>'stylesheet.css'</code> to our CSS folder. This is how the bulk of visual changes within a page are made. For example, all of the colours you see within this page were changed within the stylesheet.</p>
+               <p>We used this week to learn basic styling, such as changing font style, size, and colour. We also learned about hexcodes. Hexcodes are how the browser identifies different colours and applies them.</p>
+            </article>
+            <article>
+               <header class="post">
+				   <a id="Week5"></a>
+                  <h3>Week 5: 
+                     <time datetime= "2020-11-05"> November 5, 2020</time>
+                  </h3>
+               </header>
+               <p>This week we continued learning about font styling. As well as this we begun to learn about styling the <code>'p'</code> element. This included adding margins,indents, and aligning. We also learned how to wrap text around an image. This can be seen on week 2 where it has been applied, assuming you are on desktop.  </p>
+            </article>
+			  <article>
+               <header class="post">
+				   <a id="Week6"></a>
+                  <h3>Week 6: 
+                     <time datetime= "2020-11-12"> November 12, 2020</time>
+                  </h3>
+               </header>
+               <p>This week I taught myself how to use <code>'form'</code> tag. I did this in order to allow for a user to send a message from the Contact Me page. A form has many nested elements within it in order to make it work. Without them it is effectively useless. It does this by using <code>'label'</code> and <code>'input'</code> tag. A label tag is used in order to label the input and the input tag is used to input data. Fairly simple stuff. Finally you can create a <code>'submit'</code> button. in the exact same way you do an input or label except using the submit tag instead.</p>
+            </article>
+			 			 <article>
+			                <header class="post">
+								<a id="Week7"></a>
+                  <h3>Week 7: 
+                     <time datetime= "2020-11-19"> November 19, 2020</time>
+                  </h3>
+               </header>
+               <p>This week I learned about CSS grids and design. This begun with box models. The box model is a description of the area taken up by an element. A box has 4 different edges to consider: </p>
+				<ul>
+							 <li><code>margin</code></li>
+					<li><code>border</code></li>
+					<li><code>padding</code></li>
+					<li><code>content</code></li>
+							 </ul>
+							 <p>A box model effectively wraps around every single element in HTML. When designing and styling an element. it is important to consider the box model. A good example of where the box model was considered would be each subheading for each week. Understanding the box model played a key part in creating the design for it.</p>
+            </article>
+			 <article>
+			                <header class="post">
+								<a id="Week8"></a>
+                  <h3>Week 8: 
+                     <time datetime= "2020-11-26"> November 26, 2020</time>
+                  </h3>
+               </header>
+               <p>This week I begun to learn about media queries. At first I did not really understand how they worked at all. There was a lot of struggle in understanding what they did and how they worked. This was because my website design had become far too complex to add media queries with ease. I learned that using a design principle of "mobile" first would be the correct approach. With this in mind I begun to redesign my entire website with something more simple in mind. </p>
+            </article>
+			 			 <article>
+			                <header class="post">
+								<a id="Week9"></a>
+                  <h3>Week 9: 
+                     <time datetime= "2020-12-03"> December 3, 2020</time>
+                  </h3>
+               </header>
+							 			  <figure>
+                  <div class="flt">
+                     <img src="Images/MobileView.png" width="250" height="250" alt="Mobile View of website " />
+                     <br />
+                     <small>Screenshot &copy; this website</small>
+                  </div>
+               </figure>
+               <p>This week I finally figured out how media queries work. I used a few websites which are linked in the references section in order to gain a better understanding of their function and complexities. This allowed me to understand that a media query is effectively an <code>IF</code> statement. This means that the query was checking to see if the screen size was correct to the query and would change the website according to that. With that in mind I begun to add simple queries. First fixing the navigation bar so that it would display differently if on a smaller screen. Then I worked on removing the sidebar I had added if the margin was not big enough to fit it in. After doing this I realised I was still having some issues however. I was unable to figure it out at first until I realised that using <code>px</code> as a unit of measurement was not a good idea. at this point I converted all my measurements to em. This is because pixels are not a good relative unit of measurement whereas em is. I also had images removed from the Learning Journal on mobile screens. This is because I believed the page looked better without them.</p> 
+            </article>
+
+			 			 <article>
+			                <header class="post">
+								<a id="Week10"></a>
+                  <h3>Week 10: 
+                     <time datetime= "2020-12-10"> December 10, 2020</time>
+                  </h3>
+               </header>
+               <p>This week I begun testing the website extensively. First I began with validation of pages. This had no issues fortunately as I had continually validated the website while working on it. This ensured a very short process. Next I begun with testing how pages worked in different views. This included mobile and smaller sizes on desktop. Once again this worked as intended entirely. Because of testing in practice every time I had a new addition there were no errors to fix. The only changes that were needed were stylistic choices that I believed would improve the look of the website.</p>
+            </article>
+			 
+         </main>
+         <!--Close main page content -->
+         <aside>
+            <h2>References</h2>
+            <ol>
+               <li><a href="https://www.w3schools.com/css/css_navbar_horizontal.asp"> Basic Navbar tutorial</a></li>
+               <li><a href="https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp">Basic sidebar tutorial</a></li>
+               <li><a href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">Media Queries tutorial</a></li>
+				<li><a href="https://www.w3schools.com/html/html_forms.asp"> HTML forms tutorial</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts">How to use web fonts</a></li>
+				<li> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code">Standard <code>'code'</code> tag css </a> </li>
+				<li><a href="https://www.w3schools.com/css/css_boxmodel.asp">CSS Box model explanation</a></li>
+            </ol>
+         </aside>
+         <footer>
+            <!--Footer content -->
+            <small>&copy; 2021, Anonymous.</small>
+         </footer>
+      </div>
+      <!--Close 'wrapper' div -->
+   </body>
+   <!--Close 'body' -->
+</html>
+<!--Close 'html' -->
